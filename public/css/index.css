@@ -1,0 +1,143 @@
+/* HOMEPAGE */
+
+.bg-bl {
+  background-color: #000 !important;
+}
+
+.bg-yl {
+  background-color: #d59e07 !important;
+}
+
+.cs {
+  display: flex;
+  flex-direction: column;
+  height: 93vh;
+  justify-content: center;
+  color: whitesmoke;
+
+  font-family: "SUSE Mono", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.ft-sz1 {
+  font-size: clamp(25px, calc(13.333px + 3.241vw), 60px);
+  font-weight: 500;
+  /* background-color: aqua; */
+  width: 100%;
+  text-align: center;
+  margin-bottom: 0vh;
+  text-shadow: 1px 1px 5px whitesmoke;
+}
+
+.ft-sz2 {
+  /* font-size: 60px; */
+  font-size: clamp(15px, calc(6.667px + 2.315vw), 40px);
+  width: 100%;
+  text-align: center;
+  /* background-color: aqua; */
+  margin-bottom: 0vh;
+  font-weight: 500;
+
+}
+
+.ft-sz3 {
+  /* font-size: 60px; */
+  font-size: clamp(12px, calc(6px + 1.667vw), 30px);
+  text-align: center;
+  /* background-color: aqua; */
+  margin-bottom: 0vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  font-family: "Bitcount Prop Single Ink", system-ui;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" <element shape>,
+    "ELXP" <element expansion>,
+    "SZP1" <size of paint 1>,
+    "SZP2" 30,
+    "XPN1" 0,
+    "XPN2" 0,
+    "YPN1" 0,
+    "YPN2" 0;
+}
+
+.cntr {
+  justify-content: center;
+  justify-items: center;
+  width: 60%;
+  margin-top: 3vh;
+}
+
+
+/* PROJECT */
+.pros {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: start;
+  color: whitesmoke;
+
+  font-family: "SUSE Mono", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.pro-sz1 {
+  font-size: clamp(25px, calc(13.333px + 3.241vw), 60px);
+  font-weight: 500;
+  /* background-color: aqua; */
+  width: 100%;
+  text-align: center;
+  margin-bottom: 0vh;
+  text-shadow: 1px 1px 5px whitesmoke;
+  margin-top: 4vh;
+}
+
+.mids1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mids2 {
+  margin-top: 2vh;
+  margin-bottom: 0vh;
+  justify-content: center;
+}
+
+
+/* EXPERIENCE */
+.exper1 {
+  margin-top: 0vh;
+  margin-bottom: 0vh;
+  justify-content: center;
+  font-size: 17px;
+}
+
+/* ABOUT */
+.abot {
+  display: flex;
+  flex-direction: column;
+  height: 93vh;
+  justify-content: start;
+  color: whitesmoke;
+  width: 80%;
+
+
+  font-family: "SUSE Mono", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.abt {
+  font-size: 20px;
+  text-align: justify;
+}
