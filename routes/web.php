@@ -17,6 +17,4 @@ Route::get('/experience', function () {
 Route::get('/project', function () {
     return view('project');
 });
-Route::get('/s', function () {
-    return view('tesaja');
-});
+
