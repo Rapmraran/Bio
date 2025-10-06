@@ -2,7 +2,7 @@
 
 @section("container")
     <div class="bg-danger bg-gradient">
-        <div class="container-md pros">
+        <div class="container-md exper2">
             <p class="pro-sz1">My Experience</p>
             <div class="container py-4">
               <div class="row g-4">
