@@ -23,3 +23,4 @@ yarn-error.log
 /.zed
 
 .vercel
+/vercel2.json
