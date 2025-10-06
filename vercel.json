@@ -1,17 +1,14 @@
 {
     "version": 2,
-    "builds": [
-        {
-            "src": "api/index.php",
-            "use": "@vercel/php-built-in-server"
-        }
-    ],
-    "framework": null,
     "functions": {
-        "api/index.php": { "runtime": "vercel-php@0.6.0" }
+        "api/index.php": { "runtime": "vercel-php@0.7.4" }
     },
+    "framework": null,
     "routes": [
         { "src": "/build/(.*)", "dest": "/public/build/" },
+        { "src": "/css/(.*)", "dest": "/public/build/" },
+        { "src": "/images/(.*)", "dest": "/public/build/" },
+        { "src": "/js/(.*)", "dest": "/public/build/" },
         { "src": "/(.*)", "dest": "/api/index.php" }
     ],
     "public": true,
