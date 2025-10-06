@@ -5,7 +5,7 @@
 /public/storage
 /storage/*.key
 /storage/pail
-/vendor
+
 .env
 .env.backup
 .env.production
@@ -21,6 +21,6 @@ yarn-error.log
 /.nova
 /.vscode
 /.zed
+/vercel2.json
 
 .vercel
-/vercel2.json
